@@ -1,0 +1,12 @@
+{
+	"$schema": "./node_modules/knip/schema.json",
+	"entry": ["src/resources/main.ts"],
+	"project": [
+		".*config.ts",
+		"src/**/*.tsx?",
+		"!src/**/*.{deno.ts,bun.ts,node.cts,node.ts}"
+	],
+	"ignoreBinaries": ["v"],
+	"ignore": [],
+	"ignoreDependencies": []
+}

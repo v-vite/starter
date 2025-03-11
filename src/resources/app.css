@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@source "../templates/**/*";
+
+a {
+	@apply hover:underline;
+}
+
+input[type="text"],
+input[type="password"] {
+	@apply border border-gray-300 dark:border-gray-700 rounded-md px-3 py-2 mb-4;
+}
+
+button,
+input[type="submit"] {
+	@apply rounded text-white dark:bg-gray-800 dark:hover:bg-gray-700 py-2 px-4;
+}
